@@ -136,7 +136,6 @@ PROJECTS;
 			<td>$projectVal->createdAt</td>
 			<td><a href="index.php?action=project&id=$projectVal->id">Detail</a></td></tr>
 SINGLEPROJECT;
-		//print_r($projectVal);
 	}
 		echo '</table>';
 		break;
